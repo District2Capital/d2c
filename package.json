@@ -6,7 +6,7 @@
     "email": "bigger@usc.edu",
     "url": "https://andreasbigger.com"
   },
-  "homepage": "https://www.district2capital.com",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.12",
