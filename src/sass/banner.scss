@@ -1,0 +1,13 @@
+@import "./variables";
+
+.banner {
+    background: $primaryColor;
+    width: 100%;
+    height: 4%;
+}
+
+.bottombanner {
+    height: 8%;
+    bottom: 0;
+    position: absolute;
+}
