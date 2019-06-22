@@ -8,8 +8,13 @@ const App: React.FC = () => {
       <div id='betweenbanners'>
         <div id='logobanner'>
           <div id='logocentered'>
-            <img id="d2clogo" src={logo} alt="D2C logo"/>
-            <p id="d2ctitle">DISTRICT 2 CAPITAL</p>
+            <img className="mb-4" id="d2clogo" src={logo} alt="D2C logo" />
+            {/*<p className="my-3" id="d2ctitle">DISTRICT 2 CAPITAL</p>*/}
+            <a href="https://portal.district2capital.com">
+              <div className="loginBtn">
+                <p>Portal</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>

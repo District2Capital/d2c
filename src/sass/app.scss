@@ -26,6 +26,29 @@
   color: #61dafb;
 }
 
+.loginBtn {
+  color: $primaryColor;
+  background-color: white;
+  border-style: solid;
+  border-color: $primaryColor;
+  border-radius: 15px;
+}
+
+.loginBtn:hover{
+  background-color: $primaryColor;
+  color: white;
+}
+
+.loginBtn p{
+  margin: 3% auto;
+  font-weight: 800;
+  width: 80%;
+  height: 100%;
+  max-height: 30px;
+  font-size: calc(0.5vw + 10px);
+  overflow-y: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
